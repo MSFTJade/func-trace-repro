@@ -3,11 +3,10 @@
 
 name: Build and deploy dotnet core app to Azure Function App - jade-3542-repro
 
-on: |+
+on:
   push:
     branches:
       - main
-  workflow_dispatch:
 
 env:
   AZURE_FUNCTIONAPP_PACKAGE_PATH: '.' # set this to the path to your web app project, defaults to the repository root
