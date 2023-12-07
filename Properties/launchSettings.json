@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "func_trace_repro": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7157",
+      "launchBrowser": false
+    }
+  }
+}
